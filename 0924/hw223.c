@@ -10,21 +10,25 @@ int main() {
 
     int max=a;
 
-    if (b>max){
+    if (b>max)
+    {
         max=b;
     }
 
-    if(c>max){
+    if(c>max)
+    {
         max=c;
     }
 
     int min=a;
 
-    if(b<min){
+    if(b<min)
+    {
         min=b;
     }
 
-    if(c<min){
+    if(c<min)
+    {
         min=c;
     }
     printf("max = %d\n",max);
